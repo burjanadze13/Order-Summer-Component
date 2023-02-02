@@ -1,0 +1,123 @@
+body{
+    background: #E0E8FF;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#main{
+    width:450px;
+    height:700px;
+    background-color: white;
+    border-radius: 20px;
+}
+#main > img {
+    border-radius:20px 20px 0px 0px;
+}
+#main > h1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;
+}
+#main > p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+    padding: 0px 48px;
+}
+#box {
+    height:98px;
+    margin:0px 48px;
+    padding:0px 24px;
+    background: #F7F9FF;
+    border-radius: 11px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#box > img{
+    width:48px;
+    height:48px;
+}
+#mini-box{
+    margin-left:-70px;
+}
+#mini-box >h2{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+    margin:0;
+}
+#mini-box > p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+    margin:0;
+}
+#box > a:hover{
+    color: #766CF1;
+    cursor: pointer;
+}
+#box >a {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+}
+#button{
+    margin-top:32px;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    width:354px;
+    height:50px;
+    margin-left:48px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#button:hover{
+    background: #766CF1;
+    cursor: pointer;
+}
+#button > p{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+#cancel{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+    margin-top:32px;
+}
+#cancel:hover{
+    color: #1F2E55;
+    cursor: pointer;
+}
